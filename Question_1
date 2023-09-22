@@ -1,0 +1,3 @@
+number= lambda x : x + 25        # using variable number to store the function object
+n = int(input("Enter any number of your choice :- "))   # using input function to take input from user
+print(number(n))      # calling lambda function by passing an argument
